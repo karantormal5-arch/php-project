@@ -1,0 +1,177 @@
+
+/* Full Black Background */
+body{
+    background-color: #000000 !important;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Pure Black */
+.navbar{
+    background-color: #000000 !important;
+}
+
+/* Container Transparent */
+.container{
+    background: transparent;
+}
+
+/* Card Dark */
+.card{
+    background-color: #111111;
+    color: white;
+    border: 1px solid #222;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(255,255,255,0.1);
+}
+
+/* Product Image */
+.product-img{
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Buttons */
+.btn-primary{
+    background-color: #222;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: #444;
+}
+
+/* Search Box */
+.form-control{
+    background-color: #111;
+    color: white;
+    border: 1px solid #333;
+}
+
+.form-control::placeholder{
+    color: #888;
+}
+
+/* Footer */
+.footer{
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.dark-mode{
+    background-color: black !important;
+    color: white !important;
+}
+
+
+
+
+     /*************** style my account  button **************/
+
+
+
+body{
+background:#f5f5f5;
+}
+
+.account-card{
+border:none;
+border-radius:10px;
+transition:0.3s;
+}
+
+.account-card:hover{
+transform:translateY(-5px);
+box-shadow:0px 5px 20px rgba(0,0,0,0.1);
+}
+
+.icon{
+font-size:35px;
+margin-bottom:10px;
+color:#0d6efd;
+}
+
+/**************************profile.php styking ************************************/
+
+body{
+background:#f2f2f2;
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.profile-card{
+max-width:450px;
+width:100%;
+border-radius:15px;
+}
+
+
+/**************************orders_success.php.php styking ************************************/
+
+body{
+background:#f1f3f6;
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.success-card{
+width:450px;
+border-radius:15px;
+text-align:center;
+}
+
+.success-icon{
+font-size:60px;
+color:green;
+}
+
+
+/********************* invoice.php **********************************/
+
+.category-icons{
+background:white;
+padding:15px;
+border-radius:8px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.cat-box{
+text-decoration:none;
+color:black;
+display:block;
+transition:0.3s;
+}
+
+.cat-box img{
+height:60px;
+margin-bottom:5px;
+}
+
+.cat-box:hover{
+transform:scale(1.1);
+}
+
+/* DARK MODE */
+
+.dark-mode .category-icons{
+background:#111;
+}
+
+.dark-mode .cat-box{
+color:white;
+}
+
+
+/****************product.php*******************/
